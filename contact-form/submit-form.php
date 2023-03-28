@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
 
     // Redirect to a thank you page or back to the contact form
-    header("Location: index.html?submitted=true");
+    header("Location: contact-us?submitted=true");
     exit;
 }
 
