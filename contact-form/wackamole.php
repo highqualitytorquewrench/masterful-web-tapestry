@@ -1,5 +1,5 @@
 <?php
-
+// This will ping an email to a test email to see if an email configuration is working properly.
 $to = "your-email@example.com";
 $subject = "Test email";
 $message = "This is a test email.";
